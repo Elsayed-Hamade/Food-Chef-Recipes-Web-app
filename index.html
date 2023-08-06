@@ -1,0 +1,101 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Logo -->
+    <link rel="shortcut icon" href="Assets/img/Logo.svg" type="image/x-icon" />
+    <!-- Files Link -->
+    <link rel="stylesheet" href="Assets/styles/styles.css" />
+    <script defer src="Assets/js/controler.js"></script>
+    <!-- Fonts & Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Title -->
+    <title>
+      Food Chef | Taste the best food Recipes from all around the world
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="logo">
+          <img src="Assets/img/Logo.svg" alt="Logo" class="logo" />
+        </div>
+
+        <div class="search">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="About 1,000,000 Recipe Search ………."
+          />
+          <button class="search-btn">Search</button>
+        </div>
+        <div class="actions">
+          <button class="newRecipe-btn">
+            <i class="fa-solid fa-pen"></i>
+          </button>
+          <button class="bookmarks-btn">
+            <i class="fa-solid fa-bookmark"></i>
+          </button>
+        </div>
+      </nav>
+
+      <div class="main-content">
+        <!-- Default "No Search" -->
+        <div class="recipes-results-container">
+          <div class="result-default">
+            <i class="fa-solid fa-face-smile-wink"></i>
+            <span class="result-default-text">Search For Recipes</span>
+          </div>
+          <!-- Search Result -->
+          <!-- <div class="result">
+            <h1 class="result-title">Pizza Hut</h1>
+            <div class="result-details">
+              <div class="result-cooking_time">
+                <i class="fa-solid fa-clock"></i>
+                <span class="result-cooking_time_text">75 MIN</span>
+              </div>
+              <div class="result-ingredients">
+                <i class="fa-solid fa-bowl-rice"></i>
+                <span class="result-ingredients_text">16</span>
+              </div>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="recipe-content">
+          <div class="content-default-message">
+            <div class="default-message-text">
+              <i class="fa-solid fa-heart"></i>
+              <span class="default-message-text">
+                search for your favorite recipes, you deserve the best meal.
+              </span>
+            </div>
+            <div class="stander-img">
+              <img src="Assets/img/StanderImage.png" alt="image" />
+            </div>
+          </div>
+        </div>
+        <div class="pages">
+          <span class="previous-page">
+            <i class="fa-solid fa-arrow-left"></i>
+            <p class="previous">page 1</p>
+          </span>
+          <span class="next-page">
+            <p class="previous">page 2</p>
+            <i class="fa-solid fa-arrow-right"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
