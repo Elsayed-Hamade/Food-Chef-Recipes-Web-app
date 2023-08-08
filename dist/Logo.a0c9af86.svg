@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68.571" height="60" viewBox="0 0 68.571 60">
+  <g id="Logo" transform="translate(-165 -155)">
+    <path id="bread-slice-solid" d="M34.286,32C25.714,32,0,36.286,0,53.429A8.579,8.579,0,0,0,8.571,62V85.571A6.43,6.43,0,0,0,15,92H53.571A6.43,6.43,0,0,0,60,85.571V62a8.579,8.579,0,0,0,8.571-8.571C68.571,36.286,42.857,32,34.286,32Z" transform="translate(165 123)" fill="#fcffe5"></path>
+    <text id="food_chef" data-name="food
+chef" transform="translate(199 195)" fill="#9e7568" font-size="13" font-family="Norteam03-Regular, 'Norteam 03'" letter-spacing="0.047em"><tspan x="-20.677" y="0">FOOD</tspan><tspan x="-20.202" y="13">CHEF</tspan></text>
+  </g>
+</svg>

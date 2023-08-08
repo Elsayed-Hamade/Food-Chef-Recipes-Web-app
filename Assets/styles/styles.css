@@ -272,20 +272,26 @@ button {
 .content-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column: 1 / span 5;
+  height: 100%;
 }
 
 .content-img {
   grid-column: 1 / span 1;
   overflow: hidden;
   width: 42rem;
-  height: 27rem;
+  height: 20rem;
   border-radius: 2rem;
   margin: 2rem;
+  position: relative;
 }
 .content-img img {
-  object-fit: cover;
   width: 100%;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
 }
 
 .content-details {
@@ -375,7 +381,7 @@ button {
 }
 
 .ingredient-item {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 1rem;
 }
 
@@ -404,6 +410,14 @@ button {
   transform: scale(0.5);
 }
 
+.ingredient-unit {
+  margin-right: 0.5rem;
+}
+
+.ingredient-unit,
+.ingredient-quantity {
+  font-weight: 700;
+}
 /* NEW RECIPE */
 .new-recipe {
   margin: 5rem;
@@ -547,4 +561,27 @@ button {
 
 .bookmark-saved-result-cooking_time {
   margin-right: 2rem;
+}
+
+/* Loading Spinner */
+.spinner {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  inset: 50%;
+  transform: translate(50%, -50%);
+  /* background-color: #9c8780; */
+  /* border-top: 5px solid #9c8780; */
+  border-style: dashed;
+  border-radius: 50%;
+  animation: loading 5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
